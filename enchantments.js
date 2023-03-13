@@ -34,8 +34,7 @@ export function getSecondCard(deck) {
  */
 export function swapTopTwoCards(deck) {
   const [firstCard, secondCard, ...everythingElse] = deck;
-  const newDeck = [secondCard, firstCard, ...everythingElse];
-  return newDeck;
+  return [secondCard, firstCard, ...everythingElse];
 }
 
 /**
